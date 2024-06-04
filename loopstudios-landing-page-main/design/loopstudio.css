@@ -1,0 +1,285 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+header{
+    padding: 50px 10em 10px 10em;
+    height: 85vh;
+    background-image: url(../images/desktop/image-hero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigation a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 1.5em;
+    
+}
+
+.Immersive{
+    width: fit-content;
+    border: 2px solid rgb(255, 255, 255);
+    font-size: 65px;
+    font-weight: 200;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 2em;
+    color: white;
+    padding: 0.4em 1.5em 0.4em 0.4em;
+    text-transform: uppercase;
+}
+
+
+
+.interactive{
+    height: 100vh;
+    padding: 7em 7em 0 7em;
+    position: relative;
+    
+
+}
+
+
+.leader{ height: 40vh;
+    background-color: white;
+    position: absolute;
+    top: 20em;
+    width: 650px;
+    left: 43em;
+    padding: 4em 4em 4em 4em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* padding-left: 20px; */
+}
+
+
+.leader .title{
+    font-size: 50px;
+    font-weight: 210;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 0.3em;
+    text-transform: uppercase;
+}
+
+.paragraph{ font-size: 21px;
+}
+
+.mycreation{
+    display: flex;
+    padding: 4em 7em 7em 7em;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.creation{ 
+    font-size: 50px;
+    font-weight: 100;
+text-transform: uppercase;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+button{
+    padding: 1em 1.5em 1em 1.5em;
+    text-transform: uppercase;
+    font-size: 19px;
+    font-weight: 100;
+    /* background-color: black; */
+    color: black
+    /* border-radius: 30%; */
+
+}
+.images{
+   padding:  2em 7em 0em 7em;
+   display: flex;
+   flex-direction: column;
+   /* border: 1px solid blue; */
+   /* gap: 0.1em; */
+}
+
+.imageset{display: flex;
+    align-items: center;
+    gap: 2%;
+    width: 100%;
+}
+
+.img1{
+    height: 70vh;
+    width: 24%;
+    text-transform: uppercase;
+    font-size: 28px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    color: white;
+    background-image: url(../images/desktop/image-deep-earth.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.img2{
+    height: 70vh;
+    width: 24%;
+    text-transform: uppercase;
+    font-size: 28px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    color: white;
+    background-image: url(../images/desktop/image-night-arcade.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.img3{
+    height: 70vh;
+    width: 24%;
+    text-transform: uppercase;
+    font-size: 28px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    color: white;
+    background-image: url(../images/desktop/image-soccer-team.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.img4{
+    height: 70vh;
+    width: 24%;
+    text-transform: uppercase;
+    font-size: 28px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    color: white;
+    background-image: url(../images/desktop/image-grid.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img5{
+    height: 70vh;
+    width: 24%;
+    text-transform: uppercase;
+    font-size: 28px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    color: white;
+    background-image: url(../images/desktop/image-from-above.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.img6{
+    height: 70vh;
+    width: 24%;
+    text-transform: uppercase;
+    font-size: 28px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    color: white;
+    background-image: url(../images/desktop/image-pocket-borealis.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img7{
+    height: 70vh;
+    width: 24%;
+    text-transform: uppercase;
+    font-size: 28px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    color: white;
+    background-image: url(../images/desktop/image-curiosity.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.img8{
+    height: 70vh;
+    width: 24%;
+    text-transform: uppercase;
+    font-size: 28px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    color: white;
+    background-image: url(../images/desktop/image-fisheye.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+footer{
+    background-color: black;
+    padding: 5em 7em 1.5em 7em;
+}
+.logosocial{
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5em;
+    align-items: center;
+    margin-bottom: 2em;
+}
+
+
+.social{
+   display: flex;
+   gap: 1em;
+
+}
+
+.aboutcopyright{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    /* gap: 2.5em; */
+}
+
+.navs{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
